@@ -7,12 +7,12 @@ local Section = Tab:NewSection("Blox Fruit")
 Section:NewLabel("Make By sito")
 
 
-Section:NewButton("W-AZURE", "OG", function()
-getgenv().Team = "Marines"
+Section:NewButton("W AZURE", "ButtonInfo", function()
+    print("getgenv().Team = "Marines"
 
 getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
 
 getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()")
 end)
